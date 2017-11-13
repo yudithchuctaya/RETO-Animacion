@@ -21,7 +21,7 @@ svg{
 		transform: rotate(30deg) scale(1.1);
 	}
 	80%{
-		transform: rotate(15deg) scale(0.9);
+		transform: rotate(20deg) scale(0.9);
 	}
 	100%{
 		transform: rotate(25deg) scale(1);
@@ -51,12 +51,6 @@ svg{
 	transform-origin: 50% 50%;
 }
 
-.stars-bg{
-	stroke-width:4;
-	stroke-dasharray: 810;
-	stroke-dashoffset:810;
-	animation:linear-borde 2.9s linear forwards;
-}
 .stars{
 	animation:turn 0.9s ease-out backwards;
 }
@@ -74,6 +68,12 @@ path:nth-of-type(3){
 }
 path:nth-of-type(4){
 	animation-delay:2.5s; 
+}
+.stars-bg{
+	stroke-width:2;
+	stroke-dasharray: 810;
+	stroke-dashoffset:810;
+	animation:linear-borde 1.9s linear forwards;
 }
 
 
