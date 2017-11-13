@@ -30,10 +30,13 @@ svg{
 @keyframes pulse{
 	60%{
 		transform: scale(0.5);
+		fill: #dcee5c;
 	}
 } 
+/*===========LINEA-BORDE===========*/
 
-@keyframes offset{
+
+@keyframes linear-borde{
 	100%{
 		stroke-dashoffset:0;
 	}
@@ -52,10 +55,10 @@ svg{
 	stroke-width:4;
 	stroke-dasharray: 810;
 	stroke-dashoffset:810;
-	animation:offset 1.9s linear forwards, fill-it .5s 5s forwards;
+	animation:linear-borde 2.9s linear forwards;
 }
 .stars{
-	animation:turn 1.1s ease-out backwards;
+	animation:turn 0.9s ease-out backwards;
 }
 
 path{
